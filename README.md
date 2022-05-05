@@ -13,6 +13,7 @@
 <p align="center">
   <a href="#dart-sobre">Sobre</a> &#xa0; | &#xa0; 
   <a href="#clipboard-requisitos">Requisitos</a> &#xa0; | &#xa0;  
+  <a href="#heavy_check_mark-especificação-dos-testes">Especificação dos Testes</a> &#xa0; | &#xa0;  
   <a href="#rocket-tecnologias">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#warning-pré-requisitos"> Pré requisitos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-começando">Começando</a> &#xa0; | &#xa0;
@@ -108,13 +109,11 @@ A rota deve receber, pelo header da requisição, uma propriedade `username` con
 
 <p align="right">(<a href="#top">Voltar para o topo</a>)</p>
 
-## :heavy_check_mark: Específicação dos testes
+## :heavy_check_mark: Especificação dos testes
 
 Em cada teste, tem uma breve descrição no que sua aplicação deve cumprir para que o teste passe.
 
-
 💡 Caso você tenha dúvidas quanto ao que são os testes, e como interpretá-los, dê uma olhada em **[nosso FAQ](https://www.notion.so/FAQ-Desafios-ddd8fcdf2339436a816a0d9e45767664)**
-
 
 Para esse desafio, temos os seguintes testes:
 
@@ -122,7 +121,8 @@ Para esse desafio, temos os seguintes testes:
 
 - **Should be able to create a new user**
 
-Para que esse teste passe, você deve permitir que um usuário seja criado e retorne um JSON com o usuário criado. Você pode ver o formato de um usuário [aqui](https://www.notion.so/Desafio-01-Conceitos-do-Node-js-59ccb235aecd43a6a06bf09a24e7ede8). 
+Para que esse teste passe, você deve permitir que um usuário seja criado e retorne um JSON com o usuário criado. Você pode ver o formato de um usuário 
+<a href="#post-users">aqui</a>. 
 
 Também é necessário que você retorne a resposta com o código `201`.
 
